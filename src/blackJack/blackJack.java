@@ -125,7 +125,7 @@ public class blackJack {
                         message = "You Lose!";
                     }
 
-                    g.setFont(new Font("Arial", Font.PLAIN, 30));
+                    g.setFont(new Font("Comic Sans MS", Font.PLAIN, 30));
                     g.setColor(Color.white);
                     g.drawString(message, 220, 250);
                 }
