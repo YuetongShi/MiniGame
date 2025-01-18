@@ -108,11 +108,11 @@ public class blackJack {
                     System.out.println(playerSum);
 
                     String message = "";
-                    if (playerSum > 21) {
-                        message = "You Lose!";
-                    }
-                    else if (dealerSum > 21) {
+                    if (dealerSum > 21) {
                         message = "You Win!";
+                    }
+                    else if (playerSum > 21) {
+                        message = "You Lose!";
                     }
                     //both you and dealer <= 21
                     else if (playerSum == dealerSum) {
